@@ -1,0 +1,62 @@
+/*Estilos Generales*/
+/**{
+    margin: 0;
+}*/
+
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+/*Header*/
+header{
+    background-color: #E5E5E5 ;
+    text-align: center;
+}
+h1, h2{
+    background-color: #c4c4c4;
+    color: #005677;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 8px ;
+    text-transform: uppercase;
+}
+/*Main*/
+h2{
+    font-size: 20px;
+    letter-spacing: 5px ;
+    padding: 5px;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 70%;
+}
+span{
+    font-weight: 700;
+}
+.personal span{
+    font-style: italic;
+}
+dd{
+    margin-left: 80px;
+}
+dl{
+    margin-left: 20px;
+}
+/*Footer*/
+footer{
+    background-color: #005677;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center;
+}
+footer a{
+   color: #ffffff;
+}
