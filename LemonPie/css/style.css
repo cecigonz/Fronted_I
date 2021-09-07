@@ -1,0 +1,65 @@
+
+/*Estilos Generales*/
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');*/
+@import url('base.css');
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/static/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/static/Inter-Regular.ttf');
+}
+header, body{
+    font-family: 'Inter-Bold', sans-serif;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Header*/
+
+/*Main*/
+
+h1{
+    color: #f08080;
+    font-size: 50px;
+    font-weight: 900px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+h3{
+    font-style: italic;
+}
+.banner{
+    background: #ffe4c4 url("../img/lemon-pie\ 1.svg") no-repeat fixed center;
+   /* background-color: #ffe4c4;
+    background-image: url("../img/lemon-pie\ 1.svg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+    background-position: center;*/
+    background-size: cover;
+    height: 460px;
+}
+.icono-receta{
+    color: #f08080;
+    font-size: 30px;
+    padding: 5px;
+}
+/*Footer*/
+
+footer{
+    background-color: #cccc;
+    text-align: center;
+}
+.mi-linkedin{
+    margin-right: 10px;
+}
