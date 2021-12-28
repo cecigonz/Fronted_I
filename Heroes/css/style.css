@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Body */
+
+body{
+    background-color: #F3F3F3;
+    font-family:'Roboto', sans-serif;
+    margin: 0%;
+
+
+}
+/* Header*/
+
+header{
+    padding: 0%;
+    margin: 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+}
+
+.info p{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    margin: 0%;
+    padding: 5px 30px;
+}
+h1{
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+/* Main */
+.container{
+    padding: 100px 50px;
+    text-align: center;
+    margin: 150px 0px 40px;
+}
+.card{
+    background-color: #E5E5E5;
+    border-radius: 50px 50px 0 0;
+    display: inline-block;
+    text-align: center;
+    padding: 0 0 50px 0;
+    width: 300px;
+}
+h2{
+    text-transform: uppercase;
+}
+img.card-img{
+    position: absolute;
+    height: 193px;
+}
+i{
+    color: #CC2424;
+    position: relative;
+    right: 125px;
+    top: -180px;
+    width: 100px;
+    
+}
+.card-texto{
+    position: relative;
+    padding: 15px ;
+    
+}
+.profile{
+    border-radius: 50%;
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 90px;
+    top: -110px;
+}
+a{
+    color: #F3F3F3;
+    background-color: #00669F;
+    border-radius: 20px;
+    display: flexbox;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* Footer */
+
+footer{
+
+    background-color:#00669F;
+    color: #FFF9F9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+
+
