@@ -13,3 +13,11 @@ Sitio web para aplicación de contenidos aprendidos
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones.
 
 📋 🦇 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Batman</a>
+
+## CV_Personal:
+Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de box model utilizando las siguientes propiedades:
+* Margin, Padding, Border, Box-sizing, Width, entre otras.
+* Position: relative, absolute, fixed, sticky.
+* Position Z-Index.
+
+📋 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Personal</a>
