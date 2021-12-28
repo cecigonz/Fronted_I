@@ -21,3 +21,12 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 * Position Z-Index.
 
 📋 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Personal</a>
+
+## Heroes:
+Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de box model utilizando las siguientes propiedades:
+* Margin, Padding, Border, Box-sizing, Width, entre otras.
+* Position: relative, absolute, fixed, sticky.
+* Position Z-Index.
+En este proyecto se puede identificar la utilización de los diferentes DIVs para trabajar con el modelo de cajas.
+
+🦇 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">Heroes</a>
