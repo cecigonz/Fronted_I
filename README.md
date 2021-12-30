@@ -31,3 +31,12 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 En este proyecto se puede identificar la utilización de los diferentes DIVs para trabajar con el modelo de cajas.
 
 🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">Heroes</a>
+
+## Pizza & Front:
+Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de Flexbox utilizando las siguientes propiedades:
+* Margin, Padding, Border, Box-sizing, Width, entre otras.
+* Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
+
+En este proyecto el desafio principar es la utilización de cajas mediante DIVs para mostras como las propiedades impactan según la herencia que tengan, procurando utilizar la mayoria de las propiedades generales en el elemento padre.
+
+🍕 🛵 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">Pizza&Front</a>
