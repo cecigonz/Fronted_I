@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+    font-family:'Roboto', sans-serif;
+}
+body{
+    margin: 0%;
+}
+/* Header*/
+
+header{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F3F3F3;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    color:white;
+    display: flex;
+    font-size: 24px;
+    padding: 15px;
+}
+span.pizza{
+    color: #39B24A;
+}
+span.front{
+    color: #FC200C;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: #F3F3F3;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Main */
+main{
+    background: #E5E5E5;
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.delivery{
+    border-radius: 10px;;
+    line-height: 28px;
+    font-weight: 700px;
+}
+.delivery{
+    background-color: #FC200C;
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+span.compra{
+    color: #E5E5E5;
+}
+.card{
+    margin: 60px 10px ;
+    width: 700px;
+    height: 500px;
+}
+h2{
+    color: #FC200C;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 23px;
+}
+.podio{
+    background-color: #FFFFFF;
+}
+div.top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
+}
+div ol li{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+img.arbolito{
+    padding-top: 50px;
+    width: 150px;
+}
+/* Footer*/
+
+footer{
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F3F3F3;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div{
+    color:white;
+    display: flex;
+    font-size: 24px;
+    padding: 10px;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+footer nav ul li a{
+    color: #F3F3F3;
+    text-decoration: none;
+    padding: 10px;
+}
