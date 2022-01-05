@@ -31,7 +31,7 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones.
 
 ## CV_Personal:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de box model utilizando las siguientes propiedades:
-* Margin, Padding, Border, Box-sizing, Width, entre otras.
+* margin, padding, border, box-sizing, width, entre otras.
 * Position: relative, absolute, fixed, sticky.
 * Position Z-Index.
 
@@ -49,7 +49,7 @@ En este proyecto se puede identificar la utilización de los diferentes DIVs par
 
 ## Pizza & Front:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de Flexbox utilizando las siguientes propiedades:
-* Margin, Padding, Border, Box-sizing, Width, entre otras.
+* margin, padding, border, box-sizing, width, entre otras.
 * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
 
 En este proyecto el desafio principar es la utilización de cajas mediante DIVs para mostras como las propiedades impactan según la herencia que tengan, procurando utilizar la mayoria de las propiedades generales en el elemento padre.
