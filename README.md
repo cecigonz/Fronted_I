@@ -21,7 +21,7 @@ Utilización de la estructura HTML del sitio web anterior para lograr la aplicac
   * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
  En este proyecto el enfacis estuvo en la utilización DIVs y Flex para la ubicación de los elementos en cajas.
 
-  🐕 👜 🥘 <a href="https://cecigonz.github.io/Fronted_I/petShop" target="_blank">PetShopFLex</a>
+  🐕 👜 🥘 <a href="https://cecigonz.github.io/Fronted_I/petShopFlex" target="_blank">PetShopFLex</a>
   
 
 ## CV_Batman:
