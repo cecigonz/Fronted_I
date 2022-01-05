@@ -5,9 +5,24 @@ Sitio web que muestra el uso de listas, incorporación de imagenes y aplicación
 🍋🍰 <a href="https://cecigonz.github.io/Fronted_I/LemonPie" target="_blank">Lemon Pie</a> 
 
 ## PetShop:
-Sitio web para aplicación de contenidos aprendidos
-
+Sitio web pdiseñado para mostrar la forma de maquetación de un documento HTML haciendo enfasis en las siguientes etiquetas:
+ * <a> --> etiqueta anchor para redireccionar las listas de navegación hacia otras ventanas.
+ * <div> --> etiqueta para mostrar estructurar el HTML en secciones a las que se les pueda aplicar estilo iguale.
+Aplicación de estilos CSS para mejorar el diseño de sitio web con la utilización de selectores:
+ * De etiqueta: p{ font-size:15px};
+ * De clase: class="--";
+ * Descendente: id:"--";
+ * Combinados: buscando dar estilo a un elemento siempre y cuando cumpla con una condición determinada. 
+  
 🐕 👜 <a href="https://cecigonz.github.io/Fronted_I/petShop" target="_blank">PetShop</a>
+  
+Utilización de la estructura HTML del sitio web anterior para lograr la aplicación de Flex para posicionar sus elementos utilizando las siguientes propiedades:
+  * margin, padding, border, border-radius, box-sizing, width, max-width, entre otras.
+  * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
+ En este proyecto el enfacis estuvo en la utilización DIVs y Flex para la ubicación de los elementos en cajas.
+
+  🐕 👜 🥘 <a href="https://cecigonz.github.io/Fronted_I/petShop" target="_blank">PetShopFLex</a>
+  
 
 ## CV_Batman:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones.
