@@ -1,0 +1,338 @@
+/* Estilos generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    
+    margin: 0%;
+    padding: 0%;
+}
+/* Header*/
+header{
+    color: #F3F3F3;
+    margin: 0%;
+}
+header p{
+    margin: 0%;
+    display: inline-block;
+}
+.header-top{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.idioma-moneda a i{ 
+    padding: 0 10px;
+}
+.idioma-moneda a{
+    color: #F3F3F3;
+}
+.header-logo{
+    color: #F3F3F3;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo img{
+    margin: 5px;
+    width: 25px;
+}
+h2 > span{
+    color: #3C2313;
+}
+nav ul {
+    color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    list-style-type: none; 
+    text-align: center;
+    padding-right:30px ;
+}
+nav ul li a{
+    color: #F3F3F3;
+    display: inline-block;
+    padding: 30px 25px;
+}
+nav ul li a i{
+    padding: 0px 5px;
+}
+a{
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+/* Main*/
+
+main{
+    margin: 0%;
+}
+.slide{
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff; 
+    width: 100%;
+    height: 409px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items:center; 
+}
+.slide > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.slide h2{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color:#3C2313;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 0%;
+}
+.slide p{
+    color: #3C2313;
+    font-size: 16px;
+}
+.slide a{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 25px;
+}
+.productos-destacados *{
+    margin: 0%;
+    padding: 15px;
+}
+.productos-destacados{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.productos-destacados img{
+    width: 67px;
+    height: 71px;
+}
+.productos-destacados h2{
+    font-size: 40px;
+    width: 406px;
+    height: 47px;
+}
+.productos-destacados ul{
+    color: #666666;
+    display: flex;
+    justify-content: space-evenly;
+    width: 267px;
+    height: 18px;
+}
+.productos-destacados ul li{
+    padding: 0px 10px;
+}
+.productos-destacados ul li a{
+    color: #666666;
+    padding: 0px 10px;
+}
+.productos *{
+    font-size: 15px;
+    margin: 0%;
+}
+.productos{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+}
+.productos-destacados h2{
+    color: #3C2313;
+    font-weight: bold;
+}
+.cards{
+    color: #3C2313;
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    margin: 15px;
+    width: 264px;
+    height: 312px;
+}
+.cards p{
+    color: #F0A83E;
+    font-weight: bold;
+}
+#contacto *{
+    color: #F3F3F3;
+}
+#contacto h2{
+    color: #3C2313;
+    font-size: 25px;
+}
+#contacto{
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto p{
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #3C2313;
+    margin: 10px;
+    width: 340px;
+    height: 40px;
+    padding: 0 10px;
+}
+.boton-envio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.boton-envio h3{
+    border-radius: 15px;
+    display: inline-block;
+    width: 110px;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+
+}
+.boton-resetear{
+    background-color: #8A8787;
+    
+}
+.boton-enviar{
+    background-color:#F0A83E;
+}
+
+/* Footer*/
+
+footer{
+    padding: 70px 0px 0px 0px;
+}
+.subscripcion *{
+    margin: 0%;
+}
+.subscripcion{
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.subscripcion .novedades{
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+    margin: 5px;
+}
+.subscripcion i{
+    font-size: 40px;
+    padding: 0 0 0 20px;
+}
+.subscripcion section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.subscripcion section p{
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    color: #A0A0A0;
+    font-size: 15px;
+    font-weight: normal;
+    width: 80%;
+    padding: 10px;
+    text-align: left;
+}
+.subscripcion section h4{
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin: 0 20px 0 5px;
+    padding: 10px;
+}
+.footer-general{
+    color:#FFFFFF;
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+.datos-empresa *{
+    margin: 0px;
+}
+.datos-empresa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+}
+.cards-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;
+    max-width: 400px;
+}
+.cards-footer div{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:0px 50px;
+}
+.cards-footer div p{
+    background-color: #3C2313;
+    font-size: 10px;
+}
+.logos-footer{
+    font-size: 60px;
+    display: inline-block;
+    text-align:center;
+}
+footer div .logo{
+    width: 50%;
+}
+footer .logo a h2 span{
+    color:#F0A83E;
+}
+footer p{
+    background-color: #222222;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
