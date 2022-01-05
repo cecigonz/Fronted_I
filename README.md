@@ -35,7 +35,7 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 * Position: relative, absolute, fixed, sticky.
 * Position Z-Index.
 
-📋 👩‍💻 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Personal</a>
+📋 👩‍💻 <a href="https://cecigonz.github.io/Fronted_I/CV_Personal" target="_blank">CV_Personal</a>
 
 ## Heroes:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de box model utilizando las siguientes propiedades:
@@ -45,7 +45,7 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 
 En este proyecto se puede identificar la utilización de los diferentes DIVs para trabajar con el modelo de cajas.
 
-🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">Heroes</a>
+🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/Heroes" target="_blank">Heroes</a>
 
 ## Pizza & Front:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de Flexbox utilizando las siguientes propiedades:
@@ -54,4 +54,4 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 
 En este proyecto el desafio principar es la utilización de cajas mediante DIVs para mostras como las propiedades impactan según la herencia que tengan, procurando utilizar la mayoria de las propiedades generales en el elemento padre.
 
-🍕 🛵 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">Pizza&Front</a>
+🍕 🛵 <a href="https://cecigonz.github.io/Fronted_I/Pizza&Front" target="_blank">Pizza&Front</a>
