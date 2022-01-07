@@ -53,7 +53,7 @@ Uso de la estructura HTML del sitio web anterior adaptandolo a diferentes dispoc
   * Query:@media screen and max-width para tablet y mobile.
  En este proyecto el enfacis estuvo en la utilización Flex y Media Queries para que el sitio web fuera responsive.
  
-  🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/Super_Heroes_DC" target="_blank">Super Heroes DC</a>
+  🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/Super_Heroes_DC" target="_blank">Super_Heroes_DC</a>
   
   
 ## Pizza & Front:
