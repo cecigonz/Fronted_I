@@ -2,7 +2,7 @@
 ## LemonPie: 
 Sitio web que muestra el uso de listas, incorporación de imagenes y aplicación de difenretes estilos en CSS.
 
-🍋🍰 <a href="https://cecigonz.github.io/Fronted_I/LemonPie" {:target="_blank"}>Lemon Pie</a> 
+🍋🍰 <a href="https://cecigonz.github.io/Fronted_I/LemonPie" {:target="_blank" rel="noopener"}>Lemon Pie</a> 
 
 ## PetShop:
 Sitio web pdiseñado para mostrar la forma de maquetación de un documento HTML haciendo enfasis en las siguientes etiquetas:
