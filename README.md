@@ -47,6 +47,15 @@ En este proyecto se puede identificar la utilización de los diferentes DIVs par
 
 🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/Heroes" target="_blank">Heroes</a>
 
+Uso de la estructura HTML del sitio web anterior adaptandolo a diferentes dispocitivos como tablets y mobile por medio de responsive utilizando las siguientes propiedades:
+  * margin, padding, border, border-radius, box-sizing, width, max-width, entre otras.
+  * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
+  * Query:@media screen and max-width para tablet y mobile.
+ En este proyecto el enfacis estuvo en la utilización Flex y Media Queries para que el sitio web fuera responsive.
+ 
+  🦇 🦸 <a href="https://cecigonz.github.io/Fronted_I/SuperHeroesDC" target="_blank">Super Heroes DC</a>
+  
+  
 ## Pizza & Front:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de Flexbox utilizando las siguientes propiedades:
 * margin, padding, border, box-sizing, width, entre otras.
