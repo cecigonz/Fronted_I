@@ -21,8 +21,14 @@ Utilización de la estructura HTML del sitio web anterior para lograr la aplicac
   * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
  En este proyecto el enfacis estuvo en la utilización DIVs y Flex para la ubicación de los elementos en cajas.
 
-  🐕 👜 🥘 <a href="https://cecigonz.github.io/Fronted_I/petShopFlex" target="_blank">PetShopFLex</a>
+🐕 👜 🥘 <a href="https://cecigonz.github.io/Fronted_I/petShopFlex" target="_blank">PetShopFLex</a>
   
+Sitio web PetShop adaptado para que sea responsive en tablet y mobile. Usando las siguientes propiedades:
+  * Propiedades ya existentes en el sitio anterior, con mejoras en el codigo.
+  * * Query:@media screen and max-width para tablet y mobile.
+ En este proyecto el enfacis estuvo en la utilización Flex y Media Queries de un proyecto iniciado en desktop para que el sitio web fuera responsive.
+
+🐕 👜 🥘 📱<a href="https://cecigonz.github.io/Fronted_I/petShopResponsive" target="_blank">PetShopResponsive</a>
 
 ## CV_Batman:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones.
