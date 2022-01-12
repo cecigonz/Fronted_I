@@ -69,3 +69,8 @@ Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la
 En este proyecto el desafio principar es la utilización de cajas mediante DIVs para mostras como las propiedades impactan según la herencia que tengan, procurando utilizar la mayoria de las propiedades generales en el elemento padre.
 
 🍕 🛵 <a href="https://cecigonz.github.io/Fronted_I/Pizza&Front" target="_blank">Pizza&Front</a>
+
+Adaptacipon del sitio web para tablet y mobile con los siguientes propiedades:
+  * Query:@media screen and max-width para tablet y mobile.
+
+🍕 🛵 📱<a href="https://cecigonz.github.io/Fronted_I/Pizza&FrontResponsive" target="_blank">Pizza&FrontResponsive</a>
