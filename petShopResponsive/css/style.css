@@ -337,6 +337,9 @@ footer p{
 /**** Responsive****/
 
 @media screen and (max-width: 768px) {
+    .header-top{
+        display: none;
+    }
     .productos{
         flex-wrap: wrap;
     }  
@@ -384,5 +387,54 @@ footer p{
     .slide p{
         color: #FFFFFF;
     }
-
+    .productos-destacados h2{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .productos-destacados img{
+        width: 5rem;
+        height: 5rem;
+        padding: 0.6rem 0;
+    }
+    #contacto h2{
+        font-size: 3.5rem;
+    }
+    #contacto div{
+        width: 90%;
+    }
+    #contacto.boton-envio{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .subscripcion{
+        flex-direction: column;
+        width: 100%;
+    }
+    .subscripcion .novedades, .subscripcion section{
+        width: 100%;
+        text-align: center;
+    }
+    .subscripcion i{
+        display: none;
+    }
+    .footer-general{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    footer div .logo{
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+    }
+    .logo h2{
+        margin: 0.6rem;
+    }
+    .cards-footer{
+        width: 100%;
+        margin: 0.6rem;
+    }
+    .logos-footer{
+        font-size: 3rem;
+    }
 }
