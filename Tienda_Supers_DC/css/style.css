@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Body */
+
+body{
+    background-color: #F3F3F3;
+    font-family:'Roboto', sans-serif;
+    margin: 0%;
+    width: 100%;
+
+
+}
+/* Header*/
+
+header{
+    padding: 0%;
+    margin: 0%;
+}
+
+header p{
+    color:#00669F;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0.3rem 1.8rem;
+}
+header div{
+    background-color:#00669F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    color:#ffffff;
+    margin: 0;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    padding: 1rem;
+}
+header img{
+    border-radius: 50%;
+    border: solid;
+    width: 150px;
+}
+.header-navegation ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2rem;
+    text-transform: uppercase;
+}
+.header-navegation ul li a{
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+
+
+/* Main */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 6.25rem 3.1rem 0;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content:center;
+    align-items: stretch;
+    
+}
+.card{
+    background-color: #E5E5E5;
+    border-radius: 3.1rem 3.1rem 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 0.6rem;
+    padding: 1.3rem 0 2rem 0;
+    width: 100%;
+    height: auto;
+}
+.card-img{
+    width:100%;
+}
+.card-batman{
+    background-image: url("../img/batman.png");  
+}
+.card-wonder{
+    background-image: url("../img/fondoWonder.png");
+}
+.card-superman{
+    background-image: url("../img/fondoSuperman.png");
+}
+.card-harley{
+    background-image: url("../img/harleyQueen.png");
+}
+.card-button{
+    margin-top: auto;
+}
+img{
+    border-radius: 3.1rem 3.1rem 0 0;
+}
+h2{
+    text-transform: uppercase;
+}
+i{
+    color: #CC2424; 
+    font-size: 2rem;
+    right: 7.8rem;
+    top: -11.2rem;
+    width: 6.2rem; 
+}
+i.plus-symbol{
+    color: #00669F;
+    display: inline-block;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    padding: 0 0 1.5rem;
+    height: auto;
+}
+.profile{
+    border-radius: 50%;
+    width: 7.6rem;
+    height: 7.6rem;
+}
+.card-texto *{
+    margin: 0%;
+    padding: 1rem 0.1rem;
+}
+.card-texto {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.6rem ;
+}
+
+.card-button a{
+    color: #F3F3F3;
+    background-color: #00669F;
+    border-radius: 0.6rem;
+    display: flexbox;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+
+/* Footer */
+footer *{
+    margin: 0%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00669F;
+    color: #FFF9F9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.8rem;
+}
+footer p, h3{
+    width: 50%;
+}
+footer p{
+    text-align:left;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-transform: none;
+    text-align:right;
+}
+footer div i{
+    color: #ffffff;
+    font-size: 3.7rem;
+    margin: 0;
+    padding: 0 0 0 0.6rem;
+    width: 100%;
+}
+
+/* Responsive*/
+@media screen and (max-width: 768px) {
+    .info p{
+        background-color:aquamarine;
+    }
+    .container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 6.25rem 0rem 6.25rem 3.1rem;
+    }
+    .card{
+        width: 45%;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }
+    .card-texto {
+        font-size: 0.9rem;
+        text-align: left;
+        padding: 1rem ;
+    }
+    main{
+        flex-direction: row;
+    }
+    i.plus-symbol{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .info p{
+        background-color:rgb(69, 221, 226);
+    }
+    .container{
+        padding: 0rem 0rem 0rem 3.1rem;
+    }
+    .card{
+        margin: 2rem;
+        width: 100%;
+    }
+    
+}
+
+
+

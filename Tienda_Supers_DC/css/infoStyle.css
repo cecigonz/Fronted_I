@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Body */
+
+body{
+    background-color: #F3F3F3;
+    
+    font-family:'Roboto', sans-serif;
+    margin: 0%;
+    width: 100%;
+
+
+}
+/* Header*/
+header{
+    padding: 0%;
+    margin: 0%;
+}
+header p{
+    color:#00669F;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0.3rem 1.8rem;
+}
+h1{
+    background-color:#00669F;
+    color:#ffffff;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 0%;
+    text-transform: uppercase;
+}
+
+/* Main */
+main *{
+    margin: 0%;
+}
+main{
+    background-image: url("../img/bgDc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 5rem;
+    height: auto;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main div .profile{
+    border-radius: 50%;
+    position: absolute;
+    top: 28%;
+}
+.info-quinn{
+    background-color: #E5E5E5;
+    border-radius: 3.1rem 3.1rem;
+    width: 40%;
+    height: auto;
+    
+}
+.profile{
+    border-radius: 50%;
+    width: 7.6rem;
+    height: 7.6rem;
+}
+.info-quinn i{
+    color: #CC2424; 
+    font-size: 2rem;
+    text-align: left;
+}
+.img-quinn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.img-quinn img{
+    padding: 0 1rem 1rem 0;
+}
+.baseboll{
+    color: coral;
+}
+h2, span{
+    color: #2C0187;
+    font-weight: bold;
+    padding: 2rem 0 0 0;
+    
+}
+h2{
+    text-transform: uppercase;
+}
+.card-texto p{
+    padding: 2rem;
+}
+.vuelta-home{
+    background-color:#2C0187;
+    width: 100%;
+    border-radius: 0 0 3.1rem 3.1rem;
+}
+.vuelta-home a{
+    color: #ffffff;
+    padding: 2.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+/* FOOTER*/
+footer p{
+    background-color: #00669F;
+    color: #ffffff;
+    margin: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.5em;
+
+}
+
+/****RESPONSIVE****/
+
+@media screen and (max-width: 768px) {
+    .info-quinn{
+        width: 90%;
+    }
+}
