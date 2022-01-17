@@ -59,9 +59,15 @@ Uso de la estructura HTML del sitio web anterior adaptandolo a diferentes dispoc
   * Query:@media screen and max-width para tablet y mobile.
  En este proyecto el enfacis estuvo en la utilización Flex y Media Queries para que el sitio web fuera responsive.
  
-  🦇 🦸 🦸‍♂️ <a href="https://cecigonz.github.io/Fronted_I/Super_Heroes_DC" target="_blank">Super_Heroes_DC</a>
+🦇 🦸 🦸‍♂️ 📱<a href="https://cecigonz.github.io/Fronted_I/Super_Heroes_DC" target="_blank">Super_Heroes_DC</a>
+
+Estructura del sitio web de supereheroes para transformarlo en una tienda con todas las caracteristicas anteriores agregandole ademas distintos formularios para la interacción con los clientes:
   
-## Pizza & Front:
+🦇 🦸 🦸‍♂️ 📱 🛒<a href="https://cecigonz.github.io/Fronted_I/Tienda_Supers_DC" target="_blank">Tienda_Supers_DC</a>
+
+ El objetivo de este sitio fue la creación de diferentes formularios, agregando usabilidad a la pagina por medio de anchors e inputs.
+  
+ ## Pizza & Front:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de Flexbox utilizando las siguientes propiedades:
 * margin, padding, border, box-sizing, width, entre otras.
 * Flex: display, justify-content, align-items, flex direction, align-content, flex-grow.
