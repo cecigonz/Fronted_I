@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Body */
+
+body{
+    background-color: #F3F3F3;
+    font-family:'Roboto', sans-serif;
+    margin: 0%;
+    width: 100%;
+}
+textarea{
+    resize: none;
+}
+/* Header*/
+
+header{
+    padding: 0%;
+    margin: 0%;
+}
+
+header p{
+    color:#00669F;
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0.3rem 1.8rem;
+}
+header div{
+    background-color:#00669F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    color:#ffffff;
+    margin: 0;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    padding: 1rem;
+}
+header img{
+    border-color: #00669F;
+    border-radius: 50%;
+    border: solid;
+    width: 150px;
+    bor
+
+}
+
+/* MAIN*/
+.contacto h3 {
+    font-size:3rem;
+    margin: 0%;
+    text-align: center;
+
+}
+.contacto {
+    margin: 5% auto;
+    max-width: 400px;
+    padding: 20px;
+
+}
+form input,
+form textarea, #origen{
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+form input, #origen{
+    height: 35px;
+}
+#origen{
+    width: 102%;
+    border-bottom-color: black;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+input[type=submit],
+input[type=reset] {
+    color: #F3F3F3;
+    background-color: #00669F;
+    border-style: none;
+    border-radius: 4rem 4rem;
+    width: 49%;
+    cursor:pointer;
+    padding: 0.5rem;
+}
+label{
+    visibility: hidden;
+}
+.registrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registrado a{
+    color: #00669F;
+}
+input::placeholder {
+    color: #999;
+    padding: 0.5rem;
+} 
+.ingreso{
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+/* FOOTER*/
+footer *{
+    margin: 0%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00669F;
+    color: #FFF9F9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.8rem;
+}
+footer p, h3{
+    width: 50%;
+}
+footer p{
+    text-align:left;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-transform: none;
+    text-align:right;
+}
+footer div i{
+    color: #ffffff;
+    font-size: 3.7rem;
+    margin: 0;
+    padding: 0 0 0 0.6rem;
+    width: 100%;
+}
+
+
+/* RESPONSIVE*/
+@media screen and (max-width: 768px) {
+    header img{
+        width: 100px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+}

@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/formStyle.css">
+    <title>Contacto</title>
 </head>
+
 <body>
-    
+    <header>
+        <p>20% de descuento en todos los productos! </p>
+        <div>
+            <div class="header-logo">
+                <a href="index.html"><img src="img/descarga.jpg" alt="logo"></a>
+                <h1>tienda supers dc</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <form action="php,js" method="POST">
+                <label for="nombre">Nombre y apellido </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Jonathan González" minlength="2"
+                    maxlength="25" autofocus />
+
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" placeholder="Jonathan González" tabindex="2">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Hola!, me gustaría recibir información.." cols="30"
+                    rows="10"></textarea>
+                <div class="botones">
+                    <input type="reset" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <div>
+            <h3>GitHub</h3>
+            <i class="fab fa-github-square"></i>
+        </div>
+
+    </footer>
 </body>
+
 </html>
