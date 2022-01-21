@@ -61,7 +61,9 @@ Uso de la estructura HTML del sitio web anterior adaptandolo a diferentes dispoc
  
 🦇 🦸 🦸‍♂️ 📱<a href="https://cecigonz.github.io/Fronted_I/Super_Heroes_DC" target="_blank">Super_Heroes_DC</a>
 
-Estructura del sitio web de supereheroes para transformarlo en una tienda con todas las caracteristicas anteriores agregandole ademas distintos formularios para la interacción con los clientes:
+Estructura del sitio web de supereheroes para transformarlo en una tienda con todas las caracteristicas anteriores agregandole ademas distintos formularios para la interacción con los clientes, utilizando etiquetas como:
+  * Formularios:fom, label for, input, textarea, entre otras.
+  * Pseudoseletores: :hover, :before, :checked, entre otros.
   
 🦇 🦸 🦸‍♂️ 📱 🛒<a href="https://cecigonz.github.io/Fronted_I/Tienda_Supers_DC" target="_blank">Tienda_Supers_DC</a>
 
