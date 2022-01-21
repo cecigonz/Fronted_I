@@ -60,6 +60,10 @@ header img{
     text-decoration: none;
     padding: 1.5rem;
 }
+.icono-menu{
+    color: white;
+    display: none;
+}
 
 
 /* Main */
@@ -157,6 +161,16 @@ i.plus-symbol{
     padding: 1rem 3rem;
     text-decoration: none;
 }
+i.plus-symbol:hover {
+    color: #999;
+    cursor: pointer;
+}
+a:hover {
+    color: #fff;
+    background-color:#999;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
 
 /* Footer */
 footer *{
@@ -196,6 +210,30 @@ footer div i{
 
 /* Responsive*/
 @media screen and (max-width: 768px) {
+    header img{
+        width: 100px;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    nav ul li{
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    .icono-menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 2rem;
+        padding: 0 2rem 0 0;
+        width: 50%;
+    }
+    i.icono-menu:hover {
+        color: #999;
+        cursor: pointer;
+    }
     .info p{
         background-color:aquamarine;
     }

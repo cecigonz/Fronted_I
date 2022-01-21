@@ -48,8 +48,6 @@ header img{
     border-radius: 50%;
     border: solid;
     width: 150px;
-    bor
-
 }
 
 /* MAIN*/
@@ -63,7 +61,6 @@ header img{
     margin: 5% auto;
     max-width: 400px;
     padding: 20px;
-
 }
 form input,
 form textarea, #origen{
@@ -116,6 +113,54 @@ input::placeholder {
     text-align: center;
     margin: 1rem;
 }
+input[type="checkbox"]{
+    display: none;
+}
+.terminos label{
+    padding-bottom: 1rem;
+    visibility: visible;
+}
+.terminos{
+    padding-top: 1rem;
+}
+input[type="checkbox"] + label{
+    padding-left: 15px;
+    position: relative;
+}
+input[type="checkbox"] + label::before{
+     content:""; 
+     width: 10px;
+     height: 10px;
+     border: 1px solid #00669F;
+     background-color: gainsboro;
+     display: inline-block;
+     position: absolute;
+     left: 0;
+     top: 2px
+}
+input[type="checkbox"]:checked + label::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #00669F;
+    font-size: 10px;
+}
+input[type="submit"]:hover {
+    color: #fff;
+    background-color:#999;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+input[type="reset"]:hover {
+    color: #fff;
+    background-color:#999;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+a:hover {
+    color: #999;
+    cursor: pointer;
+}
 
 
 /* FOOTER*/
@@ -163,4 +208,5 @@ footer div i{
     h1{
         font-size: 1.8rem;
     }
+
 }
