@@ -34,6 +34,10 @@ Sitio web PetShop adaptado para que sea responsive en tablet y mobile. Usando la
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones.
 
 📋 🦇 <a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Batman</a>
+  
+Uso de la estructura HTML del CV_Batman agregandole media query y utilizando Sass para el ordenamiento de trabajo y archivos.
+  
+📋 🦇 📱<a href="https://cecigonz.github.io/Fronted_I/CV_Batman" target="_blank">CV_Batman_Sass</a>
 
 ## CV_Personal:
 Sitio web para aplicación de estilos en CSS de forma ordenada en secciones y la implentación de box model utilizando las siguientes propiedades:
