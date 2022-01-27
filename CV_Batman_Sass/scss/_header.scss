@@ -1,0 +1,22 @@
+/*Header*/
+header{
+    background-color: #E5E5E5 ;
+    text-align: center;
+    @media screen and (max-width:480px) {
+        background-color: $color-principal-mobile;
+    }
+}
+h1{
+    background-color: #c4c4c4;
+    color: #005677;
+    font-size: 2.18rem;
+    font-weight: 700;
+    letter-spacing: 8px ;
+    text-transform: uppercase;
+    @media screen and (max-width:480px) {
+        background-color: $color-principal-mobile;
+        color: $color-letras-mobile;
+        font-size: 1.8rem;
+        letter-spacing: 0.2rem;
+    }
+}
