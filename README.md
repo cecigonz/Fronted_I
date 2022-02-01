@@ -92,4 +92,4 @@ Adaptacipon del sitio web para tablet y mobile con los siguientes propiedades:
  Proyecto maquetado de cero para reflejar la utilización de Sass utilizando:
   * medya query, mixin, extend, variables, import , entre otros.
   
-😊 🌠 <a href="https://cecigonz.github.io/Fronted_I/Be_Happy_Sass" target="_blank">Be_Happy_Sass/a>
+😊 🌠 <a href="https://cecigonz.github.io/Fronted_I/Be_Happy_Sass" target="_blank">Be_Happy_Sass</a>
