@@ -1,0 +1,19 @@
+/* HEADER */
+
+header{
+    @extend %flex-between;
+
+    h1{
+        padding: 2rem;
+        @media screen and ($mobile-breakpoint){
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    a{
+        @media screen and ($mobile-breakpoint){
+            display: none;
+        }
+    }
+}

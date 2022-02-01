@@ -1,0 +1,97 @@
+/* MAIN */
+%estilo-p{
+    font-size: 30px;
+    color: $color-primary;
+    padding: 1rem 3rem 0 0;
+    text-align:justify;
+}
+.titulo{
+    background-image: url("/assets/wireframe.svg");
+    background-repeat: no-repeat;
+    background-position:right;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media screen and ($mobile-breakpoint){
+        height: auto;
+    }
+    div{
+        width: 50%;
+        @media screen and ($mobile-breakpoint){
+            width: 100%;
+            padding: 10px 0;
+        }
+        /*.fondito{
+            background-color: $bg-primary;
+            position: relative;
+            top: 3rem;
+            z-index: -1;
+            width: 210px;
+            height: 50px;
+        }*/
+        span{
+            @include estilo-span(45px)
+        }
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:3.4rem;
+            line-height: 4.3rem;
+            letter-spacing: 0.6rem;
+        }
+        p{
+            @include estilo-p(20px, 400, $color-primary)
+        }
+        .buttons{
+            width: 100%;
+            @media screen and ($mobile-breakpoint){
+                flex-direction: row;
+                margin: 0;
+                text-align: center;
+            }
+            
+        a{
+            background-color: $bg-primary;
+            border-radius: 0.6rem;
+            font-weight: bold;
+            margin: 2rem 1rem 0 0;
+            padding: 1rem 3rem;
+            transition: all 500ms;
+            &:hover{
+                box-shadow: 2px 2px 2px $color-primary;
+                transform: scale(1.1);
+            }
+            
+            
+        }
+        }
+    }
+    
+}
+.card-sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and ($mobile-breakpoint){
+        flex-direction: column;
+    }
+    &>section{
+        @extend %card;
+        @media screen and ($mobile-breakpoint){
+            width: 100%;
+           }
+        p:nth-child(1){
+            @extend %numeros;
+        }
+        span{
+            @include estilo-span(10px)
+        }
+        h3{
+            font-weight: bold;
+            padding: 1rem 0;
+        }
+    }
+
+    
+}
+
